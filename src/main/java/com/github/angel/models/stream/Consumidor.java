@@ -10,7 +10,7 @@ package com.github.angel.models.stream;
  * @author aguero
  */
 @FunctionalInterface
-public interface Consumidor<T extends String> {
+public interface Consumidor<T> {
     void consumidor(T t);
     
     @Override
