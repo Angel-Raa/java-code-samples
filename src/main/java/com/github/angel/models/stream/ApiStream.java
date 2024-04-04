@@ -5,10 +5,7 @@
 
 package com.github.angel.models.stream;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Stream;
-
+import java.util.stream.IntStream;
 
 /**
  *
@@ -16,8 +13,21 @@ import java.util.stream.Stream;
  */
 public class ApiStream {
     public static void main(String[] args) {
-        // Stream vacía
-        Stream<String > emptyStream = Stream.empty();
+      int max = IntStream.range(1, 10)
+      .max()
+      .getAsInt();
 
+      double aver = IntStream.range(1, 10)
+      .average()
+      .getAsDouble();
+      int sum = IntStream.range(1, 10)
+      .sum();
+      int min = IntStream.range(1, 10)
+      .min()
+      .getAsInt();
+        System.out.println("Elemento minimo:  " + min);
+      System.out.println("Suma de todo los elementos " + sum);
+      System.out.println("Elemento maximo : " + max);
+      System.out.println("media aritmética : " + aver);
     }
 }
