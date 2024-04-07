@@ -1,0 +1,18 @@
+
+k	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ŒŒðüÿÿÿÿ
+W
+java:S4973."<Strings and Boxed types should be compared using "equals()".(°Ë’˜üÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ì®Ç­øÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÔËÀÁ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÚÃÎ†ùÿÿÿÿ
+`
+java:S1124%"EReorder the modifiers to comply with the Java Language Specification.(¥Ø—ßùÿÿÿÿ
+[
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(»»„Ú
+`
+java:S1124B"EReorder the modifiers to comply with the Java Language Specification.(½–êçþÿÿÿÿ
+`
+java:S1124T"EReorder the modifiers to comply with the Java Language Specification.(–Ç¬Êÿÿÿÿÿ
+[
+java:S1124v"EReorder the modifiers to comply with the Java Language Specification.(˜ü¸”

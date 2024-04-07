@@ -1,0 +1,25 @@
+
+z
+java:S3958."2Refactor the code so this stream pipeline is used.(µ¯¿¹þÿÿÿÿ8´Þ¬Öë1J$7fb54aee-f923-4998-9824-848407ef10e8
+†
+java:S1854.">Remove this useless assignment to local variable "longStream".(µ¯¿¹þÿÿÿÿ8ÈÞ¬Öë1J$5529c6f3-8617-40d3-8cea-a88fcd18d249
+~
+java:S1854("<Remove this useless assignment to local variable "randoInt".(¯†]8ÉÞ¬Öë1J$e64fb83e-6fdb-41d8-a55d-fa041616b159
+
+java:S1854""<Remove this useless assignment to local variable "numbers2".(Ã‡ñž8ÉÞ¬Öë1J$8ee9c04b-c166-46c0-9e5f-6cc00806dc6e
+~
+java:S1854";Remove this useless assignment to local variable "numbers".(ðïÞÜ8ÊÞ¬Öë1J$739c90e3-d8ce-41a6-90cd-715b69203e85
+o
+java:S1481",Remove this unused "numbers" local variable.(ðïÞÜ8îÞ¬Öë1J$b843c850-8f74-4876-b5b5-ef692531be06
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(–’ô²ùÿÿÿÿ8ñÞ¬Öë1J$e239a8d9-d2cf-45f9-8362-247d7a0cea2c
+l
+java:S2140"")Use "java.util.Random.nextInt()" instead.(Ã‡ñž8øÞ¬Öë1J$3c91bf44-8bec-49d2-96c9-f4d47b2022a1
+p
+java:S1481""-Remove this unused "numbers2" local variable.(Ã‡ñž8ýÞ¬Öë1J$df31f2bf-7711-4a07-8101-b64332a9b5fe
+o
+java:S1481("-Remove this unused "randoInt" local variable.(¯†]8€ß¬Öë1J$1ff0c745-1b43-40c1-9974-85cf88f6a4bd
+ƒ	java:S125)"<This block of commented-out lines of code should be removed.(¯î´ÿÿÿÿÿ8‡ß¬Öë1J$bfa5a41d-f846-4609-bc2a-0b89763cfd2b
+l	java:S106,"+Replace this use of System.out by a logger.(œæö8ß¬Öë1J$a46f5141-084b-4631-b63d-461ec02928e7
+w
+java:S1481."/Remove this unused "longStream" local variable.(µ¯¿¹þÿÿÿÿ8•ß¬Öë1J$1f6bf077-80d0-4665-88b2-d2ed972cc5f6
+~	java:S125/"<This block of commented-out lines of code should be removed.(Óî¬Ë8–ß¬Öë1J$dac0db3b-044d-454e-802b-15742caa9e07
