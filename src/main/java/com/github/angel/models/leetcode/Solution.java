@@ -7,6 +7,7 @@ package com.github.angel.models.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -14,8 +15,9 @@ import java.util.Map;
  */
 public class Solution {
     public static void main(String[] args) {
-        int[] numbers = new int[] { 3, 3, 4 };
-        System.out.println(majorityElement(numbers));
+        //int[] numbers = new int[] { 3, 3, 4 };
+        //System.out.println(majorityElement(numbers));
+        System.out.println(checkValidString("(*)"));
 
     }
 
@@ -82,19 +84,19 @@ public class Solution {
     static public int majorityElement(int[] nums) {
         int candidate = 0; // Inicializamos el candidato a elemento mayoritario
         int count = 0; // Contador para el candidato
-    
+
         for (int num : nums) { // Recorremos el arreglo
             if (count == 0) { // Si el contador es 0, asignamos el número actual como candidato
                 candidate = num;
             }
-    
+
             if (num == candidate) { // Si el número actual es igual al candidato, aumentamos el contador
                 count++;
             } else { // Si el número actual es diferente al candidato, reducimos el contador
                 count--;
             }
         }
-    
+
         // En este punto, candidate contiene el posible elemento mayoritario
         // Verificamos si realmente es el elemento mayoritario contando su frecuencia
         int frequency = 0;
@@ -103,14 +105,19 @@ public class Solution {
                 frequency++;
             }
         }
-    
-        // Si la frecuencia del candidato es mayor que la mitad del tamaño del arreglo, entonces es el elemento mayoritario
+
+        // Si la frecuencia del candidato es mayor que la mitad del tamaño del arreglo,
+        // entonces es el elemento mayoritario
         if (frequency > nums.length / 2) {
             return candidate;
         } else {
             return -1; // No hay elemento mayoritario
         }
     }
-    
+
+    static public boolean checkValidString(String s) {
+        String MATCHES = "^([()])$";
+        return Pattern.matches(MATCHES, s);
+    }
 
 }

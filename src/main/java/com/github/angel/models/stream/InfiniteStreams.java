@@ -9,6 +9,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
@@ -25,7 +26,7 @@ public class InfiniteStreams {
         List<Integer> numbers = IntStream.iterate(0, it -> it + 2)
         .mapToObj(Integer::valueOf)
         .limit(10)
-        .toList();
+                .collect(Collectors.toList());
 
         //numbers.forEach(System.out::println);
 
@@ -33,7 +34,7 @@ public class InfiniteStreams {
         List<Integer> numbers2 = IntStream.generate(() -> (int) (Math.random() * 100))
         .limit(10)
         .mapToObj(Integer::valueOf)
-        .toList();
+        .collect(Collectors.toList());
 
         // aleatorios
         IntStream randoInt = random.ints(5);

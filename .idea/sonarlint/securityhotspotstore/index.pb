@@ -3,3 +3,17 @@ k
 ;src/main/java/com/github/angel/models/stream/ApiStream.java,c/3/c38e20e08c0aa25f65ceb63d1a2eee47fbc2e8b3
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/com/github/angel/models/linked/Main.java,0/1/01601aa91eb706def67ba02933890ffd17b4b641
+e
+5src/main/java/com/github/angel/models/linked/App.java,3/2/32a6f90016e2772d1cd1de861bbe7ab29e868517
+q
+Asrc/main/java/com/github/angel/models/stream/InfiniteStreams.java,5/3/530ad727896928bc89c76a73da9a004455c93252
+f
+6src/main/java/com/github/angel/models/linked/Nodo.java,a/9/a9951f1b06d8fe0476d3a3d651ed4bf091601d9b
+g
+7src/main/java/com/github/angel/models/linked/Lista.java,2/9/2912199469427fc22f257f7c7986e5e703a21e32
+l
+<src/main/java/com/github/angel/models/leetcode/Solution.java,3/d/3d084bd86f9bd904e19732a98e09ce6027df0bfa
+b
+2src/test/java/com/github/angel/models/AppTest.java,b/1/b1927dfb47de085d3bafab1b215d12b66e9953bb
