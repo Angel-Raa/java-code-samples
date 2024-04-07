@@ -5,6 +5,8 @@
 
 package com.github.angel.models.linked;
 
+import static java.lang.StringTemplate.STR;
+
 /**
  *
  * @author aguero
@@ -51,8 +53,6 @@ public class Nodo {
 
     @Override
     public String toString() {
-        return "Nodo{" +
-                "dato=" + dato +
-                '}';
+        return STR."\{dato} =>";
     }
 }
