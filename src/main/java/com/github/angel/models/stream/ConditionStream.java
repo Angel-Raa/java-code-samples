@@ -7,6 +7,7 @@ package com.github.angel.models.stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+
 import java.util.function.Consumer;
 
 /**
@@ -27,6 +28,7 @@ public class ConditionStream {
 
         };
         numbers.stream().forEach(action);
+        
 
     }
 
