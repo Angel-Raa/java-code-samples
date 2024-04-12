@@ -3,8 +3,6 @@ k
 ;src/main/java/com/github/angel/models/stream/ApiStream.java,c/3/c38e20e08c0aa25f65ceb63d1a2eee47fbc2e8b3
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-f
-6src/main/java/com/github/angel/models/linked/Main.java,0/1/01601aa91eb706def67ba02933890ffd17b4b641
 e
 5src/main/java/com/github/angel/models/linked/App.java,3/2/32a6f90016e2772d1cd1de861bbe7ab29e868517
 q
@@ -37,3 +35,5 @@ Q.idea/sonarlint/securityhotspotstore/a/9/a9951f1b06d8fe0476d3a3d651ed4bf091601d
 Q.idea/sonarlint/securityhotspotstore/2/9/2912199469427fc22f257f7c7986e5e703a21e32,f/d/fdc6ec177ae7b6753c7ced60d0424a0fb54222c8
 Å
 Q.idea/sonarlint/securityhotspotstore/0/1/01601aa91eb706def67ba02933890ffd17b4b641,5/6/56ed5a76351d88baabd87fcb6a062e5273ede41c
+k
+;src/main/java/com/github/angel/models/stream/ApiReduce.java,a/3/a381c2e920a3634da78e5d3cf1b00dff2fbd80a3

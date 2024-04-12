@@ -19,6 +19,7 @@ public class Nodo {
     // para inserta al final
     public Nodo(int dato) {
         this.dato = dato;
+        this.siguiente = null;
     }
 
     // para inserta al inicion

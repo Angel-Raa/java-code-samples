@@ -9,6 +9,7 @@ package com.github.angel.models.linked;
  *
  * @author aguero
  */
+
 public class Lista {
     private Nodo start;
     private Nodo end;
@@ -18,26 +19,43 @@ public class Lista {
         this.end = null;
     }
 
-    /*
-     * Metedo para agregar un Nodo al inicion de lista
+    /**
+     * Metodo para agregar un elemento a la lista
+     * @param elemento
+     * @return
      */
     public void add(int elemento) {
         this.start = new Nodo(elemento, start);
-        if (end == null) {
+        if (this.end == null) {
             this.end = this.start;
         }
     }
 
-    /*
-     * Mostra Lista
+    /**
+     * Metodo para imprimir la lista
+     *
      */
     public void print() {
         Nodo tmp = this.start;
         while (tmp != null) {
-            System.out.println(tmp);
+            System.out.print(tmp);
             tmp = tmp.getSiguiente();
         }
     }
+
+    public boolean isEmpty () {
+        return this.start == null;
+    }
+
+    public void addEnd(int elemento) {
+        if(!isEmpty()){
+            this.end = new Nodo(elemento);
+            this.end = end.getSiguiente();
+        }
+        this.start = this.end = new Nodo(elemento);
+
+    }
+
 
 
 }

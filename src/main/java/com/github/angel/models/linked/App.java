@@ -20,7 +20,7 @@ public class App {
         do {
             try {
                 opcion = Integer.parseInt(JOptionPane.showInputDialog(null,
-                        "1. Agregar un elemento al inicion de lista \n2. Mostra los Datos de Lista. \n3. Salir",
+                        "1. Agregar un elemento al inicion de lista \n2. Mostra los Datos de Lista. \n3. Salir \n4. Inserta a fin de lista ",
                         "Menu de Opciones ", 3));
                 switch (opcion) {
                     case 1 -> {
@@ -48,6 +48,12 @@ public class App {
                     case 3 -> {
                         System.out.println("Saliendo");
                         System.exit(0);
+                    }
+                    case 4 -> {
+                        elemento = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un elemento",
+                                "Insertando al final", 3));
+                        lista.addEnd(elemento);
+                        System.out.println("Elemento agregado");
                     }
                     default -> JOptionPane.showMessageDialog(null, "Opcion Incorrecta ");
 
