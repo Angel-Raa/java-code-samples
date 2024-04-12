@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.github.angel.models.leetcode;
+package com.github.angel.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;

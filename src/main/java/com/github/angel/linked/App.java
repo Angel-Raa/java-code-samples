@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.github.angel.models.linked;
+package com.github.angel.linked;
 
 
 import javax.swing.JOptionPane;

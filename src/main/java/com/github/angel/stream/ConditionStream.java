@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.github.angel.models.stream;
+package com.github.angel.stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
