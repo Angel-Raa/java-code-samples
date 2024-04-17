@@ -5,6 +5,8 @@
 
 package com.github.angel.linked;
 
+
+
 /**
  *
  * @author aguero
@@ -21,20 +23,17 @@ public class Lista {
 
     /**
      * Metodo para agregar un elemento a la lista
+     * 
      * @param elemento
      * @return
      */
     public void add(int elemento) {
-        this.start = new Nodo(elemento, start);
+        this.start = new Nodo(elemento, this.start);
         if (this.end == null) {
             this.end = this.start;
         }
     }
 
-    /**
-     * Metodo para imprimir la lista
-     *
-     */
     public void print() {
         Nodo tmp = this.start;
         while (tmp != null) {
@@ -43,12 +42,12 @@ public class Lista {
         }
     }
 
-    public boolean isEmpty () {
+    public boolean isEmpty() {
         return this.start == null;
     }
 
     public void addEnd(int elemento) {
-        if(!isEmpty()){
+        if (!isEmpty()) {
             this.end = new Nodo(elemento);
             this.end = end.getSiguiente();
         }
@@ -56,6 +55,20 @@ public class Lista {
 
     }
 
+    public int delete() {
+        int tmp = this.start.getDato();
+        if (this.start == this.end) {
+            this.end = null;
+            this.start = null;
+        } else {
+            this.start = this.start.getSiguiente();
+
+        }
+        return tmp;
+
+    }
+
 
 
 }
+
