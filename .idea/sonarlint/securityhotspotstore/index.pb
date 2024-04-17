@@ -40,3 +40,5 @@ _
 /src/main/java/com/github/angel/generic/Foo.java,7/3/7384a3e0e68e99abe94ed24e3da4adb4ba0711c5
 ]
 -src/main/java/com/github/angel/pila/Pila.java,7/5/75c3a9cb051e03be77292ddc469828fd53c5fa05
+a
+1src/main/java/com/github/angel/cadena/Cadena.java,f/f/ff211a7205ff2d76137713605e7437eb37726421
