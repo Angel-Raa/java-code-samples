@@ -46,6 +46,8 @@ public class Pila {
         pila.push(10);
         pila.push(20);
         pila.push(30);
-        System.out.print(pila.cima());
+        System.out.println(pila.cima());
+        System.out.println("Tiene elementos:  " + pila.isFull());
+        System.out.println("Elimina elemento : "   + pila.pop());
     }
 }
