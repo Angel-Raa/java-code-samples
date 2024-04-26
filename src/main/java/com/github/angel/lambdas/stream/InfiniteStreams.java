@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.github.angel.stream;
+package com.github.angel.lambdas.stream;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
