@@ -60,3 +60,9 @@ k
 ;src/main/java/com/github/angel/lambdas/utils/Predicate.java,9/c/9c1b252c87871e85a3e9a00e3e948747fd65a211
 j
 :src/main/java/com/github/angel/lambdas/stream/Filtrar.java,b/3/b3b356de2c250600c3e2305f1fb4b85510f4a5eb
+`
+0src/main/java/com/github/angel/lambdas/Skip.java,7/9/79fe9050fc526998d1bb1d4e69ff7d44c9467246
+h
+8src/main/java/com/github/angel/lambdas/schema/Venta.java,0/d/0d0c0527b0e61d5c1b4ead1e61533c860a4774c3
+g
+7src/main/java/com/github/angel/lambdas/stream/Skip.java,1/e/1e26808637582a25d8b35b407c0ffeefc8be2cfa
