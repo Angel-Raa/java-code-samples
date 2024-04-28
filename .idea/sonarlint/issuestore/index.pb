@@ -11,12 +11,6 @@ E
 .vscode/settings.json,8/9/89aa447020cdcb580cea0495694d46a55941edbe
 _
 /src/main/java/com/github/angel/generic/Box.java,4/b/4b6be0e222170a2640f04f1e4a26f4c95316b1d4
-j
-:src/main/java/com/github/angel/stream/InfiniteStreams.java,f/1/f167f1324ab76ca9a62c9525a4011eec7350943e
-j
-:src/main/java/com/github/angel/stream/ConditionStream.java,7/3/73004c8b9c29768f96a78afb7e64c58ccc6dde84
-e
-5src/main/java/com/github/angel/stream/Consumidor.java,1/6/160d045d85740f934a0166d9b06822ea6437727f
 e
 5src/main/java/com/github/angel/leetcode/Solution.java,a/2/a2604e68c1b1f602e0dc53c32ef72e0c65e702c2
 `
@@ -25,12 +19,6 @@ _
 /src/main/java/com/github/angel/linked/Nodo.java,5/2/52132602c64d25fd563e6b001aa1f958440e5c07
 ^
 .src/main/java/com/github/angel/linked/App.java,b/7/b70047cb65bffb8297721062bb86e9eeef709b82
-d
-4src/main/java/com/github/angel/stream/ApiStream.java,2/a/2a70810684af34478363b8497eae588b21aa16a3
-d
-4src/main/java/com/github/angel/stream/ApiReduce.java,a/4/a4350de265bf1224134c4c7a3551b85025fd7361
-c
-3src/main/java/com/github/angel/stream/ApiDates.java,f/b/fbcf8e9ce0e146ac16428de89a3044f5be9cc272
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -68,3 +56,7 @@ r
 Bsrc/main/java/com/github/angel/lambdas/stream/InfiniteStreams.java,7/d/7da322489673666f809bde74e6f4ed2968379457
 g
 7src/main/java/com/github/angel/lambdas/stream/Main.java,a/c/ac69470141bc5a5aa28a590544c6335df6387185
+k
+;src/main/java/com/github/angel/lambdas/utils/Predicate.java,9/c/9c1b252c87871e85a3e9a00e3e948747fd65a211
+j
+:src/main/java/com/github/angel/lambdas/stream/Filtrar.java,b/3/b3b356de2c250600c3e2305f1fb4b85510f4a5eb
