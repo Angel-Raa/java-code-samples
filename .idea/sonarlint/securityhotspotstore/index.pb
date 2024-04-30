@@ -66,3 +66,9 @@ g
 7src/main/java/com/github/angel/lambdas/stream/Skip.java,1/e/1e26808637582a25d8b35b407c0ffeefc8be2cfa
 e
 5src/main/java/com/github/angel/lambdas/Reference.java,0/d/0df4b3736f60c8f59a885691954e467776d09046
+c
+3src/main/java/com/github/angel/lambdas/FlatMap.java,1/4/1474394984cfa94185061acf018ac12a7b830391
+e
+5src/main/java/com/github/angel/lambdas/IntStream.java,3/8/38cb0ffe19ee089643ced187682d517c6357b5d3
+o
+?src/main/java/com/github/angel/lambdas/IntStreamCustomized.java,4/4/44aa3a22fc098545672cc630416d4be275eb4797
