@@ -78,7 +78,5 @@ l
 <src/main/java/com/github/angel/lambdas/utils/BiFunction.java,b/d/bd2a313c7897f8c1f8afefbefc5a5231e32b9ccc
 p
 @src/main/java/com/github/angel/lambdas/utils/BinaryOperator.java,0/f/0f2c99d6d33f029a15475f19742957cd9e6c0ce8
-`
-0src/main/java/com/github/angel/lambdas/Test.java,0/1/016f17c6577a7cf6e12573e6b22dd01e773200a2
 d
 4src/main/java/com/github/angel/lambdas/Exercise.java,8/3/83a414d51412443ff3dba037f6207dcf8b42a687
